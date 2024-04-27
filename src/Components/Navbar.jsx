@@ -1,6 +1,5 @@
 import React,{useState} from 'react'
 import beesoul from '../Assests/beesoul.png';
-import image from '../Assests/imagee.png'
 
 import { FaBars, FaTimes } from "react-icons/fa";
 // import {Link} from "react-scroll";
@@ -9,9 +8,7 @@ const Navbar = () => {
 
   const [nav, setNav] =useState(false); //default pass
 
-  // const toggleNav=()=>{
-  //   setNav(!nav);
-  // };
+
 
   const links =[ 
     {
@@ -20,11 +17,11 @@ const Navbar = () => {
     },
     {
       id: 2,
-      link: 'about us'
+      link: 'services'
     },
     {
       id: 3,
-      link: 'services'
+      link: 'about us'
     },
     {
       id: 4,
@@ -37,7 +34,7 @@ const Navbar = () => {
 <div className="flex justify-around items-center w-full h-20 text-black bg-white px-4 fixed">
     <div>
       <a className='' href='/'> 
-        <img className=' ml-10  w-20 h-auto  ' src={beesoul} alt =""/> 
+        <img className=' ml-10  w-20 h-auto cursor-pointer capitalize hover:scale-110 duration-200  ' src={beesoul} alt =""/> 
        </a> 
     </div>
     <ul className='hidden md:flex mr-10 '>
