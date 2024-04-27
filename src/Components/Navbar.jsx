@@ -17,11 +17,11 @@ const Navbar = () => {
     },
     {
       id: 2,
-      link: 'services'
+      link: 'about us'
     },
     {
       id: 3,
-      link: 'about us'
+      link: 'services'
     },
     {
       id: 4,
