@@ -6,7 +6,10 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        button:'#2dc8b4'
+        button:'#2dc8b4',
+        backgroundService:'#eaf8f8 ',
+        iconBg:'#f4e5d2',
+        iconBg2: '#d3f3dc',
       }
 
     },
