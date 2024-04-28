@@ -8,8 +8,10 @@ module.exports = {
       colors:{
         button:'#2dc8b4',
         backgroundService:'#eaf8f8 ',
+        backgroundTeam: '#f4e5d2',
         iconBg:'#f4e5d2',
         iconBg2: '#d3f3dc',
+
       }
 
     },

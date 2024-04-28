@@ -5,7 +5,8 @@ import AboutUs from './Components/AboutUs';
 import Services from './Components/Services';
 import Team from  './Components/Team';
 import Footer from './Components/Footer';
-
+import Contact from './Components/Contact';
+import HeroSections from './Components/HeroSections';
 function App() {
   return (
 <>
@@ -14,6 +15,8 @@ function App() {
 <AboutUs/>
 <Services/>
 <Team/>
+<HeroSections/>
+<Contact/>
 <Footer/>
 </>
   
