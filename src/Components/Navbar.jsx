@@ -31,7 +31,7 @@ const Navbar = () => {
 
   return (
  
-<div className="flex justify-around items-center w-full h-20 text-black bg-white px-4 fixed">
+<div className="flex justify-between items-center w-full h-20 text-black bg-white px-4 fixed">
     <div>
       <a className='' href='/'> 
         <img className=' ml-10  w-20 h-auto cursor-pointer capitalize hover:scale-110 duration-200  ' src={beesoul} alt =""/> 

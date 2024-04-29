@@ -1,9 +1,8 @@
 import React from 'react'
 
-
 const Services = () => {
     return (
-        <div className='flex pt-24 overflow-hidden items-center'>
+        <div className='flex pt-24 overflow-hidden'>
             <div className='bg-backgroundService w-4/5 h-auto py-14 shadow-md' style={{ borderTopRightRadius: '200px' }}>
                 <div className='flex flex-col items-center text-center'>
                     <h2 className='text-3xl font-extrabold'>Service We Provide</h2>
@@ -12,7 +11,7 @@ const Services = () => {
 
                 <div className='flex gap-10 pl-56 mt-12'>
                     <div className='bg-white p-8 flex flex-col justify-between w-80 shadow-md'>
-                        <img src="/unnamed2.png" alt="" className='h-12 w-12 bg-iconBg2 p-2' />
+                        <img src="/unnamed.png" alt="" className='h-12 w-12 bg-iconBg2 p-2' />
 
                         <div>
                             <h3 className='font-bold mt-3'>Startup MVP building</h3>
@@ -20,7 +19,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div className='bg-white p-8 flex flex-col justify-between w-80 shadow-md'>
-                        <img src="/unnamed.png" alt="" className='h-12 w-12 bg-iconBg p-2' />
+                        <img src="/unnamed2.png" alt="" className='h-12 w-12 bg-iconBg p-2' />
 
                         <div>
                             <h3 className='font-bold mt-3'>Upscaling of Existing Business Solution</h3>
@@ -39,7 +38,16 @@ const Services = () => {
             </div>
 
 
-           
+            <div className='pt-44'>
+
+            <div className='bg-white p-8 flex flex-col justify-center w-72  '>
+                <img src="/unnamed.png" alt="" className='h-12 w-12 bg-iconBg2 p-2' />
+                <div>
+                    <h3 className='font-bold mt-3'>Upscaling of Existing Business Solution</h3>
+                    <p className='text-xs mt-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. A unde qui voluptatem fugit repellat, atque possimus nisi distinctio dolorum iure?</p>
+                </div>
+            </div>
+            </div>
         </div>
     )
 }
