@@ -16,7 +16,7 @@ Let's work</h1>
     </p>
   
         <button className=' mt-4 bg-button  cursor-pointer  text-white px-4 py-2  rounded hover:bg-blue-600 '
-        style={{ fontFamily: 'Noto, sans-serif'}}>Submit your schedule</button>
+        style={{ fontFamily: 'Noto, sans-serif'}}>Schedule a Discovery Call</button>
     <h1 className='text-white flex items-center mt-4  text-8xl ' style={{fontWeight:'1000'}}>
 together</h1>
     </div>
