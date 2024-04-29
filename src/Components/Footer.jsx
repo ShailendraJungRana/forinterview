@@ -46,10 +46,18 @@ const Footer = () => {
                     </li>
                 </ul>
                 </div> 
+
+                <div className='lg:col-span-5 md:col-span-4 col-span-12'>
+                    <div className='mt-5 text-white text-4xl font-bold text-right'>
+                        <h2> Lets Talk</h2>
+                        <a className=' text-white text-sm font-normal hover:text-gray-600 transition-all duration-500 ease-in-out' href="mailto:info@beesoul.co">info@beesoul.co</a>
+                        <p className='text-sm font-thin'>Richmond, California</p>
+                        <p className='text-sm font-thin'>Kathmandu, Nepal</p>
+
+                    </div>
+                   
+                </div>
     </div>
-    {/* <div>
-        <h1 className='text-3xl text-white'>Let's talk</h1>
-    </div> */}
   </div>
 
     <p className="text-sm text-white font-bold text-center ">&copy; 2024 Your Company. All rights reserved.</p>
@@ -61,4 +69,10 @@ const Footer = () => {
 
 export default Footer
 
+       
 
+// <div className='lg:col-span-5 md:col-span-4 col-span-12'>
+// <div className='mt-5 text-white text-xl font-bold text-right'>
+//     <h2> Lets Talk</h2>
+// </div>
+// </div>
