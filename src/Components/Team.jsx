@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const Services = () => {
+const Team = () => {
     return (
         <div>
         <div>
@@ -29,4 +29,4 @@ const Services = () => {
     )
 }
 
-export default Services
+export default Team

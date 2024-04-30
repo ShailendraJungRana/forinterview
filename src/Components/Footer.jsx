@@ -70,9 +70,3 @@ const Footer = () => {
 export default Footer
 
        
-
-// <div className='lg:col-span-5 md:col-span-4 col-span-12'>
-// <div className='mt-5 text-white text-xl font-bold text-right'>
-//     <h2> Lets Talk</h2>
-// </div>
-// </div>
